@@ -5,3 +5,4 @@ Feature: Admin adds user
 
   Scenario: add user
   	Given I am on the home page
+	And I click "Add users"
