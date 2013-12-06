@@ -7,3 +7,4 @@ Feature: Admin adds user
   	Given I am on the home page
 	And I click "Add user"
     Then I should be on the new user page
+		And I fill in "Username" with "Jon" and "Password" with "Password"
