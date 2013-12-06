@@ -6,3 +6,4 @@ Feature: Admin adds user
   Scenario: add user
   	Given I am on the home page
 	And I click "Add user"
+    Then I should be on the new user page
