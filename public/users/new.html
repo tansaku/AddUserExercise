@@ -1,4 +1,3 @@
-
 <form>
 	Username:<input name="Username"/><br/>
     Password:<input name="Password"/>
@@ -6,8 +5,7 @@
 	<div id="new_user"></div>
 </form>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
     $('button').click(function() {
        $('#new_user').text('New User: ' + $('input[name="Username"]').val());

@@ -3,7 +3,7 @@ Feature: Admin adds user
 	So that users can access our great site
 	I want to add a new user
 	
-@javascript
+  @javascript
   Scenario: add user
   	Given I am on the home page
 	And I click "Add user"
