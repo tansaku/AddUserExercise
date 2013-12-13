@@ -4,3 +4,10 @@
 	<button type="submit" >Create User</button>
 	<div id="new_user"></div>
 </form>
+
+<script>
+    $('button').click(function() {
+       $('#new_user').text('New User: ' + $('input[name="Username"]').val())
+    });
+
+</script>
