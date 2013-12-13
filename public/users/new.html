@@ -1,15 +1,12 @@
+<html>
+<body>
 <form>
 	Username:<input name="Username"/><br/>
     Password:<input name="Password"/>
 	<button type="submit" >Create User</button>
 	<div id="new_user"></div>
 </form>
-
-<script src="../javascripts/jquery-1.10.2.js"></script>
-<script>
-    $('button').click(function() {
-       $('#new_user').text('New User: ' + $('input[name="Username"]').val());
-       return false;
-    });
-
-</script>
+<script src="/public/javascripts/jquery-2.0.3.js"></script>
+<script src="/public/javascripts/NewUser.js"></script>
+</body>
+</html>
