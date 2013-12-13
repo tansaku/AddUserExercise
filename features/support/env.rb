@@ -1,6 +1,7 @@
 require 'capybara/cucumber'
 require 'capybara-webkit'
 require 'debugger'
+require 'selenium/webdriver'
 
 Capybara.configure do |config|
   config.run_server = false
